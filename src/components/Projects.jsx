@@ -25,7 +25,7 @@ const projects = [
     title: 'This Portfolio',
     description: 'A personal portfolio built from scratch in React. Designed to be minimal, editorial, and very me.',
     tags: ['React', 'CSS', 'Framer Motion'],
-    link: '#'
+    link: 'https://portfolio-website-five-delta-45.vercel.app'
   }
 ];
 
