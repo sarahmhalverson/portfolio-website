@@ -6,7 +6,7 @@
 
 ## 📋 Overview
 
-My personal portfolio site, built from scratch in React as both a professional showcase and a hands-on learning project. Every section was designed and coded by me. No templates.
+My personal portfolio site, built from scratch in React as both a professional showcase and a hands-on learning project.
 
 ## ✨ Features
 
