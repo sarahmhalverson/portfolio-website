@@ -47,6 +47,31 @@ npm start
 
 ---
 
+## 📁 Project Structure
+
+```
+portfolio-website/
+├── public/
+│   └── resumes/
+│       ├── resume-frontend.pdf
+│       └── resume-data-analyst.pdf
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Resume.jsx
+│   │   └── Footer.jsx
+│   ├── assets/
+│   │   └── profile.jpg
+│   ├── App.js
+│   └── index.css
+└── index.html
+```
+
+---
+
 ## 👩‍💻 Built By
 
 **Sarah Halverson** — sole developer  
