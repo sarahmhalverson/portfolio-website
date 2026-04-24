@@ -2,11 +2,15 @@
 
 > Personal portfolio site built in React — showcasing data analytics and front-end development projects.
 
-Live site: https://portfolio-website-five-delta-45.vercel.app/
+**Live site:** [portfolio-website-five-delta-45.vercel.app](https://portfolio-website-five-delta-45.vercel.app)
+
+---
 
 ## 📋 Overview
 
-My personal portfolio site, built from scratch in React as both a professional showcase and a hands-on learning project.
+My personal portfolio site, built from scratch in React as both a professional showcase and a hands-on learning project. Every section was designed and coded by me. No templates.
+
+---
 
 ## ✨ Features
 
@@ -18,6 +22,8 @@ My personal portfolio site, built from scratch in React as both a professional s
 - Fully responsive — works on desktop, tablet, and mobile
 - Smooth animations — powered by Framer Motion
 
+---
+
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
@@ -28,36 +34,20 @@ My personal portfolio site, built from scratch in React as both a professional s
 | Framer Motion | Scroll animations |
 | Vercel | Deployment and hosting |
 
+---
+
 ## 🚀 Running Locally
 
+```bash
 git clone https://github.com/sarahmhalverson/portfolio-website.git
 cd portfolio-website
 npm install
 npm start
+```
 
-## 📁 Project Structure
-
-portfolio-website/
-├── public/
-│   └── resumes/
-│       ├── resume-frontend.pdf
-│       └── resume-data-analyst.pdf
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Resume.jsx
-│   │   └── Footer.jsx
-│   ├── assets/
-│   │   └── profile.jpg
-│   ├── App.js
-│   └── index.css
-└── index.html
+---
 
 ## 👩‍💻 Built By
 
-Sarah Halverson — sole developer
-LinkedIn: linkedin.com/in/sarahmhalverson
-Email: sarahmhalve@gmail.com
+**Sarah Halverson** — sole developer  
+[LinkedIn](https://linkedin.com/in/sarahmhalverson) · [Email](mailto:sarahmhalve@gmail.com) · [Portfolio](https://portfolio-website-five-delta-45.vercel.app)
