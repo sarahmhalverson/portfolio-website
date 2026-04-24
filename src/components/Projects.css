@@ -1,0 +1,124 @@
+.projects {
+  padding: 8rem 3rem;
+  background-color: var(--color-light);
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.projects-header {
+  margin-bottom: 4rem;
+}
+
+.projects-label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: lowercase;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.projects-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  color: var(--color-dark);
+  line-height: 1.1;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 80px 1fr 40px;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--color-muted);
+  text-decoration: none;
+  color: var(--color-dark);
+  transition: all 0.3s ease;
+}
+
+.project-card:last-child {
+  border-bottom: 1px solid var(--color-muted);
+}
+
+.project-card:hover {
+  padding-left: 1rem;
+}
+
+.project-card:hover .project-arrow {
+  transform: translateX(5px);
+}
+
+.project-number {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 400;
+  color: var(--color-dark);
+}
+
+.project-description {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  font-weight: 300;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.project-tag {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  border: 1px solid var(--color-muted);
+  padding: 0.3rem 0.8rem;
+}
+
+.project-arrow {
+  font-size: 1.2rem;
+  color: var(--color-muted);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 5rem 1.5rem;
+  }
+
+  .project-card {
+    grid-template-columns: 50px 1fr 30px;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+}

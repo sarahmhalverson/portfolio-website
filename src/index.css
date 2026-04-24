@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #F5F0EB;
+  --color-dark: #1a1a1a;
+  --color-accent: #8B3A3A;
+  --color-light: #E8E0D5;
+  --color-muted: #9a8f87;
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── MOBILE STYLES ── */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .navbar.scrolled {
+    padding: 1rem 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 1.5rem;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.85rem;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 5rem 1.5rem;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image-wrapper {
+    aspect-ratio: 4/3;
+  }
+
+  /* PROJECTS */
+  .projects {
+    padding: 5rem 1.5rem;
+  }
+
+  .project-card {
+    grid-template-columns: 50px 1fr 30px;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+
+  /* RESUME */
+  .resume {
+    padding: 5rem 1.5rem;
+  }
+
+  .resume-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .resume-card {
+    padding: 2rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 4rem 1.5rem 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-links {
+    gap: 1.5rem;
+  }
+}
