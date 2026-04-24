@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     number: '01',
     title: 'Data Analysis Project',
-    description: 'Coming soon — exploring a dataset and finding the story hiding in the numbers.',
+    description: 'Coming soon. Exploring a dataset and finding the story hiding in the numbers.',
     tags: ['Python', 'Pandas', 'Data Analysis'],
     link: '#'
   },
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     number: '02',
     title: 'Data Dashboard',
-    description: 'Coming soon — a visual dashboard that turns raw data into something worth looking at.',
+    description: 'Coming soon. A visual dashboard that turns raw data into something worth looking at.',
     tags: ['Tableau', 'Data Viz', 'Storytelling'],
     link: '#'
   },
@@ -76,4 +76,4 @@ function Projects() {
   );
 }
 
-export default Projects;git push origin main --force
+export default Projects;
