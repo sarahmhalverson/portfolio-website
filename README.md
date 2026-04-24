@@ -2,7 +2,7 @@
 
 > Personal portfolio site built in React — showcasing data analytics and front-end development projects.
 
-**Live site:** coming soon
+Live site: https://portfolio-website-five-delta-45.vercel.app/
 
 ## 📋 Overview
 
