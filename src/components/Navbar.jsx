@@ -22,6 +22,7 @@ function Navbar() {
       {/* Desktop links */}
       <div className="navbar-links">
         <a href="#about">about</a>
+        <a href="#skills">skills</a>
         <a href="#projects">projects</a>
         <a href="#resume">resume</a>
       </div>
@@ -40,6 +41,7 @@ function Navbar() {
       {/* Mobile menu */}
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
         <a href="#about" onClick={closeMenu}>about</a>
+        <a href="#skills" onClick={closeMenu}>skills</a>
         <a href="#projects" onClick={closeMenu}>projects</a>
         <a href="#resume" onClick={closeMenu}>resume</a>
       </div>
