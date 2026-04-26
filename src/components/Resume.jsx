@@ -45,7 +45,7 @@ function Resume() {
             <p className="resume-card-description">
               Focused on building web interfaces and user experiences. For roles in front-end development and web engineering.
             </p>
-            <a href="/resumes/SarahHalversonResumeFrontEnd.pdf" download className="resume-btn resume-btn-outline">
+            <a href="/resumes/SarahHalversonResumeFrontend.pdf" download className="resume-btn resume-btn-outline">
               download ↓
             </a>
           </div>
