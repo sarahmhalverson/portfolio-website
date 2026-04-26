@@ -2,7 +2,7 @@
 
 > Personal portfolio site built in React — showcasing data analytics and front-end development projects.
 
-**Live site:** [portfolio-website-five-delta-45.vercel.app](https://portfolio-website-five-delta-45.vercel.app)
+**Live site:** www.sarahmhalverson.com
 
 ---
 
