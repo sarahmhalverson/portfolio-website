@@ -34,7 +34,7 @@ function Resume() {
             <p className="resume-card-description">
               Focused on data analysis, visualization, and storytelling. For roles in analytics, business intelligence, and data.
             </p>
-            <a href="/resumes/SarahHalversonDataResume.pdf" download className="resume-btn resume-btn-dark">
+            <a href="/resumes/SarahHalversonResumeData.pdf" download className="resume-btn resume-btn-dark">
               download ↓
             </a>
           </div>
@@ -45,7 +45,7 @@ function Resume() {
             <p className="resume-card-description">
               Focused on building web interfaces and user experiences. For roles in front-end development and web engineering.
             </p>
-            <a href="/resumes/SarahHalversonFrontendResume.pdf" download className="resume-btn resume-btn-outline">
+            <a href="/resumes/SarahHalversonResumeFrontend.pdf" download className="resume-btn resume-btn-outline">
               download ↓
             </a>
           </div>
