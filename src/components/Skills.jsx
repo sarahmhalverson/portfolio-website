@@ -5,14 +5,15 @@ import './Skills.css';
 const skills = [
   {
     category: 'Data',
-    items: [
+     items: [
       { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
       { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg' },
       { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
       { name: 'Power BI', icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg' },
+      { name: 'Tableau', icon: 'https://cdn.worldvectorlogo.com/logos/tableau-software.svg' },
       { name: 'Highcharts', icon: 'https://img.icons8.com/color/96/combo-chart.png' },
       { name: 'Excel', icon: 'https://img.icons8.com/color/96/microsoft-excel-2019.png' },
-    ]
+  ]
   },
   {
     category: 'Front-End',
