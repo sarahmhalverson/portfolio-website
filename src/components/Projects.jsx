@@ -6,10 +6,10 @@ const projects = [
   {
     id: 1,
     number: '01',
-    title: 'Data Analysis Project',
-    description: 'Coming soon. Exploring a dataset and finding the story hiding in the numbers.',
-    tags: ['Python', 'Pandas', 'Data Analysis'],
-    link: '#'
+    title: 'Health & Fitness Analytics Dashboard',
+    description: 'Interactive Tableau dashboard analyzing fitness trends across 10 activity types. Explores calorie burn, BMI by gender, and daily steps patterns across thousands of participants.',
+    tags: ['Tableau', 'Data Analysis', 'Data Viz'],
+    link: 'https://public.tableau.com/app/profile/sarah.halverson7035/viz/HealthFitnessAnalyticsDashboard/HealthFitnessAnalyticsDashboard'
   },
   {
     id: 2,
